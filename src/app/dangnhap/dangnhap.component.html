@@ -1,0 +1,32 @@
+<div class="container">
+      
+
+        <form class="form-dn" style="text-align: center">
+
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Email: </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Nhập email của bạn!">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                </div>
+                <div class="form-group" *ngFor="let a of danhsach">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" [(ngModel)]="danhsach.password">
+                </div>
+
+                <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Nhớ mật khẩu</label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="text-align: center">Submit</button>
+
+                <p style="text-align: center; padding-top: 20px">
+                        <button><i class='fas fa-bolt' style='font-size:36px'></i></button>
+                        <button><i class='fas fa-id-card' style='font-size:36px'></i></button>
+                        <button><i class='far fa-bell' style='font-size:36px'></i></button>
+                </p>
+
+        </form>
+
+</div>

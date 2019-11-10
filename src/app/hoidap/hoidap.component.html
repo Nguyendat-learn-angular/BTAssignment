@@ -1,0 +1,12 @@
+<div class="container hoidap">
+    <h3 style="text-align: center; color: black; font-weight: bold">Trao đổi thông tin để tiến bộ!</h3>
+    <div class="media">
+        <img [(src)]="thoai.hinhanh" class="mr-3" alt="..." style="width: 100%">
+        <div class="media-body">
+            <h5 class="mt-0" *ngFor="let a of danhsach">{{a.username}}</h5>
+            <input type="text" value="" class="texthoidap" [(ngModel)]="thoai.traodoi">
+        </div>
+    </div>
+    <button class="btn btn-primary" (click)="goBack()"> Quay về </button>
+
+</div>

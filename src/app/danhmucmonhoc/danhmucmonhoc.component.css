@@ -1,0 +1,10 @@
+.danhmuc{
+    margin: 5px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

@@ -1,0 +1,13 @@
+<div class="container gopy">
+    <h3 style="text-align: center; color: black; font-weight: bold">Bạn có thể để lại 1 số góp ý góp phần cải thiện
+        trang wed ngày càng tốt hơn!</h3>
+    <div class="media">
+        <img src="../../assets/cropped-Logo-mới-2.png" class="mr-3" alt="..." style="width: 100%">
+        <div class="media-body">
+            <h5 class="mt-0" *ngFor="let a of danhsach">{{danhsach.username}}</h5>
+            <input type="text" value="" class="textgopy" [(ngModel)]="hopthoai.gopy">
+        </div>
+    </div>
+    <button class="btn btn-primary" (click)="goBack()"> Xong </button>
+
+</div>

@@ -1,0 +1,7 @@
+.component{
+    width: 60%;
+}
+form{
+    border: 0.5px solid rgb(184, 179, 179);
+    border-radius: 15px;
+}

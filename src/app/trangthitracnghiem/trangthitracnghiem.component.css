@@ -1,0 +1,12 @@
+.tracnghiem{
+    
+        background: gainsboro;
+        border-top: 1px solid rgb(105, 102, 102);
+        border-right: 1px solid rgb(105, 102, 102);
+        border-left: 2px solid rgb(105, 102, 102);
+        border-bottom: 2px solid rgb(105, 102, 102);
+        border-radius: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
