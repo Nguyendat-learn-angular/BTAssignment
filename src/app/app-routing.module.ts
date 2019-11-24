@@ -14,7 +14,7 @@ import {TrangthitracnghiemComponent} from './trangthitracnghiem/trangthitracnghi
 
 
 
-const routes: Routes = [
+export const routes: Routes = [
   {path:'',component:TrangchuComponent},
   {path:'**',redirectTo:"trangchu",pathMatch:"full"},
   {path:'/trangchu', component:TrangchuComponent},
